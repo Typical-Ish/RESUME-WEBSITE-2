@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaq.css" />
+
+</head>
+
+<body>
+
+    <script src="script.js"></script>
+
+    <nav id="desktop-nav"> 
+
+        <div class="logo">Ismael Saint Fleur</div>
+
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#project">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+
+    </nav>
+
+    <nav id="hamburger-nav"> 
+
+        <div class="logo">Ismael Saint Fleur</div>
+
+        <div class="hamburger-menu">
+
+            <div class="hamburger-icon" onclick="toggleMenu()">
+
+                <span></span>
+                <span></span>
+                <span></span>
+
+            </div>
+
+            <div class="menu-links">
+
+                    <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                    <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+                    <li><a href="#project" onclick="toggleMenu()">Projects</a></li>
+                    <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+
+            </div>
+
+        </div>
+
+
+    </nav>
+
+    <section id="profile">
+        <div class="section_pic">
+            <img src="./assets/SELFIE.png" alt="Photo of Ismael">
+        </div>
+
+        <div class="section_txt">
+
+            <p class="section_text_p1">
+              Welcome, I'm 
+            </p>
+
+            <h1 class="title">Ismael Saint Fleur</h1>
+
+            <p class="section_text_p2"> IT: Cybersecurity Analysist</p>
+
+            <p class="section_text_p3"> This is my resume website, created by yours truly.</p>
+
+            <p class="section_text_p4"> The goal is to display all my projects and hobbies here.</p>
+
+            <p class="section_text_p5">Enjoy, take a look</p>
+
+            <div class="btn-container">
+
+                <button class="btn btn-color-2" onclick="window.open('./assets/RESUME_9.17.24.pdf')"
+                >Download CV
+                </button>
+
+                <button class="btn btn-color-1" onclick="location.href='./#contact'"
+                >Contact Info</button>
+
+            </div>
+
+            <div id="socials-container">
+
+                <img src="./assets/linkedin.png" alt="My LinkedIn profile" class="icon" onclick="location.href='https://www.linkedin.com/in/isaintfl'">
+
+                <img src="./assets/github.png" alt="My Github profile" class="icon" onclick="location.href='https://github.com/Typical-Ish'">
+
+            </div>
+
+
+        </div>
+    </section>
+
+    <section id="about">
+        <p class="section_text_p1">Learn More</p>
+        <h1 class="title">About Me</h1>
+
+        <div class="section-container">
+
+            <div class="section_pic-container">
+                <img
+                src="./assets/about-pic2.png"
+                alt="Profile Picture"
+                class="about-pic"/>
+            </div>
+
+            <div class="about-details-container">
+
+                <div class="about-container">
+
+                <div class="details-container">
+
+                    <img src="./assets/experience.png" alt="experience icon" class="icon"/>
+
+                    <h3>Experience</h3>
+                    <p>Fresh Graduate 2025 <br />IT: Cybersecurity</p>
+
+                </div>
+
+                <div class="details-container">
+
+                    <img src="./assets/education.png" alt="education icon" class="icon"/>
+
+                    <h3>Education</h3>
+                    <p>B.S Information Technology <br />Concentration:  Cybersecurity</p>
+
+                </div>
+                </div>
+
+                <div class="text-container">
+                    <p>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam quae assumenda dolorum, exercitationem quam porro dignissimos! Ad odit nam laboriosam mollitia quisquam natus corrupti deserunt sapiente, suscipit dignissimos a. Repudiandae?
+
+                    </p>
+                    
+                </div>
+            </div>
+        </div>
+        
+        <img src="./assets/arrow.png" alt="Arrow Icon" class="icon arrow" onclick="location.href='./#experience'"/>
+
+    </section>
+
+
+<section id="experience">
+    <p class="section_text_p1">Explore My</p>
+    <h1 class="title">Experience</h1>
+    <div class="experience-details-container">
+        <div class="about-container">
+            <div class="details-container">
+                <h2 class="experience-sub-title">
+                 Cybersecurity   
+                </h2>
+                <div class="article-container">
+                    <article>
+                        <img 
+                        src="./assets/checkmark.png" alt="Experience Icon"
+                        class="icon">
+                        <div>
+                            <h3>Splunk</h3>
+                            <p>Experienced</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img 
+                        src="./assets/checkmark.png" alt="Experience Icon"
+                        class="icon">
+                        <div>
+                            <h3>Splunk</h3>
+                            <p>Experienced</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img 
+                        src="./assets/checkmark.png" alt="Experience Icon"
+                        class="icon">
+                        <div>
+                            <h3>Splunk</h3>
+                            <p>intermediate</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img 
+                        src="./assets/checkmark.png" alt="Experience Icon"
+                        class="icon">
+                        <div>
+                            <h3>Wireshark</h3>
+                            <p>Experienced</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img 
+                        src="./assets/checkmark.png" alt="Experience Icon"
+                        class="icon">
+                        <div>
+                            <h3>Linux</h3>
+                            <p>Experienced</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img 
+                        src="./assets/checkmark.png" alt="Experience Icon"
+                        class="icon">
+                        <div>
+                            <h3>Virtualization</h3>
+                            <p>Experienced</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img 
+                        src="./assets/checkmark.png" alt="Experience Icon"
+                        class="icon">
+                        <div>
+                            <h3>SIEM</h3>
+                            <p>intermediate</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+            <div class="details-container">
+                <h2 class="experience-sub-title">
+                 Information Technology 
+                </h2>
+                <div class="article-container">
+                    <article>
+                        <img 
+                        src="./assets/checkmark.png" alt="Experience Icon"
+                        class="icon">
+                        <div>
+                            <h3>Python</h3>
+                            <p>Experienced</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img 
+                        src="./assets/checkmark.png" alt="Experience Icon"
+                        class="icon">
+                        <div>
+                            <h3>NodeJS</h3>
+                            <p>intermediate</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img 
+                        src="./assets/checkmark.png" alt="Experience Icon"
+                        class="icon">
+                        <div>
+                            <h3>Git</h3>
+                            <p>intermediate</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img 
+                        src="./assets/checkmark.png" alt="Experience Icon"
+                        class="icon">
+                        <div>
+                            <h3>MySQL</h3>
+                            <p>intermediate</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img 
+                        src="./assets/checkmark.png" alt="Experience Icon"
+                        class="icon">
+                        <div>
+                            <h3>HTML+CSS</h3>
+                            <p>Experienced</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img 
+                        src="./assets/checkmark.png" alt="Experience Icon"
+                        class="icon">
+                        <div>
+                            <h3>Powershell Scripting</h3>
+                            <p>Experienced</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img 
+                        src="./assets/checkmark.png" alt="Experience Icon"
+                        class="icon">
+                        <div>
+                            <h3>Ansible</h3>
+                            <p>Fundamental</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+            <div class="details-container">
+                <h2 class="experience-sub-title">
+                 Certifications 
+                </h2>
+                <div class="article-container">
+                    <article>
+                        <img 
+                        src="./assets/checkmark.png" alt="Experience Icon"
+                        class="icon">
+                        <div>
+                            <h3><a href="https://www.credly.com/earner/earned/badge/374c7650-fe42-4d0b-b637-92d48fa7e6f0">ISC2 : 
+                                Certified in Cybersecurity (CC)</a></h3>
+                            <p>Date: February 21, 2023 </p>
+                        </div>
+                    </article>
+                    <article>
+                        <img 
+                        src="./assets/checkmark.png" alt="Experience Icon"
+                        class="icon">
+                        <div>
+                            <h3><a href="https://www.credly.com/badges/202f9a54-d943-44d5-a822-b41cabb5789e">COMPTIA : Security+</a></h3>
+                            <p>Date: September 14, 2024 </p>
+                        </div>
+                    </article>
+                   
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <img src="./assets/arrow.png" alt="Arrow Icon" class="icon arrow" onclick="location.href='./#projects'"/>
+
+</section>
+
+<section id="projects">
+    <p class="section_text_p1">Browse My Recent</p>
+    <h1 class="title">Projects</h1>
+    <div class="experience-details-container">
+        <div class="about-container">
+        <div class="details-container color-container">
+            <div class="article-container">
+                <img
+                src="./assets/Art_sketch.jpeg"
+                alt="Project 1"
+                class="project-img"
+                />
+            </div>
+            <h2 class="experience-sub-title project-title">Project One</h2>
+            <div class="btn-container">
+                <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/Typical-Ish'">
+                    Github
+                </button>
+                <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/Typical-Ish'">
+                    Live Demo
+                </button>
+                
+
+            </div>
+        </div>
+        <div class="details-container color-container">
+            <div class="article-container">
+                <img
+                src="./assets/Art_sketch.jpeg"
+                alt="Project 1"
+                class="project-img"
+                />
+            </div>
+            <h2 class="experience-sub-title project-title">Project Two</h2>
+            <div class="btn-container">
+                <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/Typical-Ish'">
+                    Github
+                </button>
+                <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/Typical-Ish'">
+                    Live Demo
+                </button>
+                
+
+            </div>
+        </div>
+        <div class="details-container color-container">
+            <div class="article-container">
+                <img
+                src="./assets/Art_sketch.jpeg"
+                alt="Project 1"
+                class="project-img"
+                />
+            </div>
+            <h2 class="experience-sub-title project-title">Project Three</h2>
+            <div class="btn-container">
+                <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/Typical-Ish'">
+                    Github
+                </button>
+                <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/Typical-Ish'">
+                    Live Demo
+                </button>
+                
+
+            </div>
+        </div>
+    </div>
+
+    </div>
+
+    <img src="./assets/arrow.png" alt="Arrow Icon" class="icon arrow" onclick="location.href='./#contact'"/>
+
+</section>
+
+<section id="contact">
+    <p class="section_text_p1">Get In Touch</p>
+    <h1 class="title">Contact Me</h1>
+    <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+            <img src="./assets/email.png" alt="Email Icon" class="icon contact-icon email-icon">
+            <p><a href="mailto:ish2saint@gmail.com">Ish2saint@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+            <img src="./assets/linkedin.png" alt="LinkedIn Icon" class="icon contact-icon">
+            <p><a href='https://www.linkedin.com/in/isaintfl'>LinkedIn</a></p>
+        </div>
+    </div>
+</section>
+<footer>
+    <nav>
+        <div class="nav-links-container">
+
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#project">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+        </div>
+    </nav>
+    <p>Copyright &#169; 2025 Ismael Saint Fleur. All Rights Reserved.</p>
+</footer>
+</body>
+
+</html>
